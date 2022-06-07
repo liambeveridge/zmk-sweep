@@ -85,7 +85,7 @@
 	ext_layer {
 	    bindings = <
                 &kp LG(LS(4))    &kp K_COPY     &kp K_PASTE     &kp ESC          &trans       &trans           &kp PG_UP         &kp UARW      &kp PG_DN     &trans
-                &hm LCTRL TAB     &kp LALT     &kp LGUI      &kp ENTER          &trans       &kp LC(LS(TAB))      &kp LARW       &kp DARW    &kp RARW   &kp &LC(TAB)
+                &hm LCTRL TAB     &kp LALT     &kp LGUI      &kp ENTER          &trans       &kp LC(LS(TAB))      &kp LARW       &kp DARW    &kp RARW   &kp LC(TAB)
                 &kp LC(LG(GRAVE))  &trans     &trans      &trans   &trans       &trans           &kp LG(GRAVE)  &kp LG(TAB)  &kp K_VOL_DN  &kp K_VOL_UP
                                                   &trans          &trans       &kp BSPC          &kp trans
 	    >;
