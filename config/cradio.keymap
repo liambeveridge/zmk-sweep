@@ -65,7 +65,7 @@
        	default_layer {
             bindings = <
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
-                &hm LCTRL A &hm LALT S &hm LGUI D &kp F    &kp G         &kp H            &kp J    &hm  K LGUI &hm LALT L &hm LCTRL SEMI
+                &hm LCTRL A &hm LALT S &hm LGUI D &kp F    &kp G         &kp H            &kp J    &kp  K &kp L &kp SEMI
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp SQT
                                                   &mo EXT  &kp SPACE     &mo LSHIFT  &kp SYM
             >;
@@ -74,20 +74,20 @@
         // Numbers and high frequency symbols
        	sym_layer {
             bindings = <
-                &trans    &kp K_COPY     &kp K_PASTE     &kp ESC          &trans       &trans           &trans         &kp UARW      &trans     &trans
-                &hm LCTRL TAB     &kp LALT     &kp LGUI      &kp ENTER          &trans       &trans           &kp LARW       &kp DARW    &kp RARW   &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &kp        &kp   &trans  &trans
-                                                  &trans          &trans       &kp ESC          &kp DEL
+                &kp N2   &kp N3     &kp N4      &kp N1          &kp N5      &kp N6          &N0         &N7      &N8     &N9
+                &kp PLUS   &kp EXCL     &kp LPAR      &kp RPAR          &kp AT     &POUND          &FSLH         &UNDER      &EQUAL     &ASTRK
+                &kp GRAVE  &kp PIPE     &kp LBRC      &kp RBKT          &kp TILDE      &CARET          &LBKT         &RBKT      &PRCNT     &AMPS
+                                                  &kp MINUS          &kp QMARK     &trans          &BSLH
             >;
 	};
 
         // Main modifiers and arrow keys
 	ext_layer {
 	    bindings = <
-		&kp ESC  &trans &trans  &trans  &trans    			        &kp PG_UP  &kp HOME &kp UP &kp END &kp CAPS
-		&sk LALT &sk LGUI  &sk LSHIFT  &sk LCTRL  &kp RALT 			&kp PG_DN &kp LEFT  &kp DOWN  &kp RIGHT   &kp DEL
-		&kp LC(Z)  &kp LC(X) &kp LC(C) &kp TAB   &kp LC(V)          &kp LC(BSPC) &kp BSPC &trans &trans  &trans
-					                        &trans &kp LCTRL    &kp ENTER  &mo FNC 
+                &trans    &kp K_COPY     &kp K_PASTE     &kp ESC          &trans       &trans           &trans         &kp UARW      &trans     &trans
+                &hm LCTRL TAB     &kp LALT     &kp LGUI      &kp ENTER          &trans       &trans           &kp LARW       &kp DARW    &kp RARW   &trans
+                &trans     &trans     &trans      &trans          &trans       &trans           &kp        &kp   &trans  &trans
+                                                  &trans          &trans       &kp ESC          &kp DEL
 	    >;
 	};
 
