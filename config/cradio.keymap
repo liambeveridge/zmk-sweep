@@ -67,7 +67,7 @@
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &hm LCTRL A &hm LALT S &hm LGUI D &kp F    &kp G         &kp H            &kp J    &hm  K LGUI &hm LALT L &hm LCTRL SEMI
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp SQT
-                                                  &mo ext_layer  &kp SPACE     &mo sym_layer  &kp BKSP
+                                                  &mo EXT  &kp SPACE     &mo LSHIFT  &kp SYM
             >;
         };
 
