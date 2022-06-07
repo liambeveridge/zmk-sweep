@@ -87,7 +87,7 @@
                 &trans    &kp K_COPY     &kp K_PASTE     &kp ESC          &trans       &trans           &trans         &kp UARW      &trans     &trans
                 &hm LCTRL TAB     &kp LALT     &kp LGUI      &kp ENTER          &trans       &trans           &kp LARW       &kp DARW    &kp RARW   &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp        &kp   &trans  &trans
-                                                  &trans          &trans       &kp ESC          &kp DEL
+                                                  &trans          &trans       &kp BSPC          &kp trans
 	    >;
 	};
 
