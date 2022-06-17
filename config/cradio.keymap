@@ -40,7 +40,7 @@
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sk>, <&kp>;
+            bindings = <&sk LSHIFT>, <&kp CAPS>;
         };
     };
 
@@ -53,7 +53,7 @@
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &hm LCTRL A &hm LALT S &hm LGUI D &kp F    &kp G         &kp H       &kp J    &kp K &hm LALT L &hm LCTRL SEMI
 		&kp Z      &kp X      &kp C       &kp V    &kp B         &kp N       &kp M          &kp COMMA   &kp DOT    &kp SQT
-                                                  &mo EXT  &kp SPACE     &td0 LSHIFT CAPS &sl SYM
+                                                  &mo EXT  &kp SPACE     &td0	     &sl SYM
             >;
         };
 
