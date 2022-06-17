@@ -34,15 +34,15 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&sk LSHIFT>, <&kp CAPSLOCK>;
+            bindings = <&kp>, <&kp>;
         };
 	
-        td0: tap_dance_0 {
+	td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
+            bindings = <&sk LSHIFT>, <&kp CAPSLOCK>;
         };
     };
 
@@ -55,7 +55,7 @@
                 &kp Q      &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O      &kp P
                 &hm LCTRL A &hm LALT S &hm LGUI D &kp F    &kp G         &kp H       &kp J    &kp K &hm LALT L &hm LCTRL SEMI
 		&kp Z      &kp X      &kp C       &kp V    &kp B         &kp N       &kp M          &kp COMMA   &kp DOT    &kp SQT
-                                                  &mo EXT  &kp SPACE     &td0 LSHIFT CAPSLOCK  &sl SYM
+                                                  &mo EXT  &kp SPACE     &sk LSHIFT  &sl SYM
             >;
         };
 
