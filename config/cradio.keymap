@@ -34,7 +34,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings = <&sk LSHIFT>, <&kp CAPSLOCK>;
         };
 	
 	td0: shft_tap {
