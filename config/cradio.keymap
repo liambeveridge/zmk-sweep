@@ -23,6 +23,10 @@
 &sk {
     ignore-modifiers;
 };
+	
+&caps_word {
+    continue-list = <UNDERSCORE MINUS>;
+};
 
 / {
     behaviors {
@@ -34,10 +38,6 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	
-	&caps_word {
-    	    continue-list = <UNDERSCORE MINUS>;
-	};
 	
 	td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
