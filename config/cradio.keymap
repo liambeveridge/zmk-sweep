@@ -69,7 +69,7 @@
         // Base alpha layer
        	default_layer {
             bindings = <
-                &cmd_qwerty      &kp C      &kp L       &kp M          &kp K         &kp Z            &kp F          &kp U       &kp SQT      &kp SEMI
+                &cmd_qwerty      &mo QWERTY      &kp L       &kp M          &kp K         &kp Z            &kp F          &kp U       &kp SQT      &kp SEMI
                 &hm LCTRL I &hm LALT S &hm &cmd_qwerty R &kp T    &kp G         &kp P       &kp N    &hm LGUI E &hm LALT A &hm LCTRL O
 		&kp Y      &kp V     &kp W       &kp D    &kp J         &kp B       &kp H          &kp COMMA   &kp DOT   &kp X
                                                   &mo EXT  &kp SPACE     &td0	     &sl SYM
