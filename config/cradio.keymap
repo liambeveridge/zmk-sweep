@@ -30,6 +30,20 @@
 };
 
 / {
+
+    macros {
+        cmd_qwerty: cmd_qwerty {
+            label = "cmd_qwerty";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+	    wait-ms = <0>;
+	    bindings
+		    = <&macro_press &mo 4 &kp LGUI>
+		    , <&macro_pause_for_release>
+		    , <&macro_release &mo 4 &kp LGUI>;
+	};
+    };
+
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -48,7 +62,6 @@
             bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPS>;
         };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
