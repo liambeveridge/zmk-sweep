@@ -48,19 +48,7 @@
             bindings = <&sk LSHIFT>, <&caps_word>, <&kp CAPS>;
         };
     };
-    
-    macros {
-        cmd_qwerty: cmd_qwerty {
-            label = "cmd_qwerty";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-	    wait-ms = <0>;
-	    bindings
-		    = <&macro_press &mo 4 &kp LGUI>
-		    , <&macro_pause_for_release>
-		    , <&macro_release &mo 4 &kp LGUI>;
-	};
-    };
+
 
     keymap {
         compatible = "zmk,keymap";
@@ -69,7 +57,7 @@
        	default_layer {
             bindings = <
                 &kp Q      &kp C      &kp L       &kp M          &kp K         &kp Z            &kp F          &kp U       &kp SQT      &kp SEMI
-                &hm LCTRL I &hm LALT S &cmd_qwerty R &kp T    &kp G         &kp P       &kp N    &kp E &hm LALT A &hm LCTRL O
+                &hm LCTRL I &hm LALT S &kp R &kp T    &kp G         &kp P       &kp N    &kp E &hm LALT A &hm LCTRL O
 		&kp Y      &kp V     &kp W       &kp D    &kp J         &kp B       &kp H          &kp COMMA   &kp DOT   &kp X
                                                   &mo EXT  &kp SPACE     &td0	     &sl SYM
             >;
