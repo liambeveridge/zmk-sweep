@@ -53,16 +53,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	
-	homerow_qwerty_gui: homerow_qwerty_gui {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow_qwerty_gui";
-            #binding-cells = <2>;
-            tapping_term_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&cmd_qwerty >, <&kp r>;
-        };
-	
+
 	td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
@@ -79,7 +70,7 @@
        	default_layer {
             bindings = <
                 &kp Q      &kp C      &kp L       &kp M          &kp K         &kp Z            &kp F          &kp U       &kp SQT      &kp SEMI
-                &hm LCTRL I &hm LALT S &homerow_qwerty_gui R&kp T    &kp G         &kp P       &kp N    &hm LGUI E &hm LALT A &hm LCTRL O
+                &hm LCTRL I &hm LALT S &hm cmd_qwerty R &kp T    &kp G         &kp P       &kp N    &hm LGUI E &hm LALT A &hm LCTRL O
 		&kp Y      &kp V     &kp W       &kp D    &kp J         &kp B       &kp H          &kp COMMA   &kp DOT   &kp X
                                                   &mo EXT  &kp SPACE     &td0	     &sl SYM
             >;
